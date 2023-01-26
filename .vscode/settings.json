@@ -1,3 +1,8 @@
 {
-    "livePreview.defaultPreviewPath": "d:\\SteamLibrary\\Side_Projects\\loadingmelo.wordpress.com-2023-01-16-23_00_35\\site.wordpress.2023-01-16.000.html"
+    "livePreview.defaultPreviewPath": "127.0.0.1;3000",
+    "rainbowString": {
+        "extensions": [
+            ".html"
+        ]
+    }
 }
