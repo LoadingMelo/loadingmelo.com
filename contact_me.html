@@ -24,10 +24,11 @@
   background: #007bb5;
   color: white;}
   
- h1{color:#ffffff;} 
+ h2{color:#ffffff;} 
  body{background-color: #000000;}
  p{color: #ffffff;}
-
+label{color:#ffffff}
+textarea{height:150px;}
 </style>
 <center>  
 <img src="http://127.0.0.1:3000\LoadingMelogif.gif">
@@ -44,7 +45,25 @@
 <button style="border-radius:10px;color:#ffffff;background:linear-gradient(135deg,rgb(174,61,255) 0%,rgb(226,39,86) 100%)" 
   onclick="document.location='http://127.0.0.1:3000/projects/'">Projects</button>
 
-
+  
+<div class = "container">
+  <h2>Contact Form</h2>
+  <form action="https://formsubmit.co/el/confirm/ad505e1ff9ed4ab23bab323b5518d1ad" method="POST">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="Message">Message</label><br>
+    <textarea name="Message"></textarea><br>
+    <button type="submit">Send</button>
+  </form> 
+</div>
+   
+  
+  </body>
+  </html>
 </center>
 
 <a href="https://twitter.com/LoadingMelo"class="fa fa-twitter"></a>
