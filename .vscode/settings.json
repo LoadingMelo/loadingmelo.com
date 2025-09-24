@@ -4,5 +4,7 @@
         "extensions": [
             ".html"
         ]
-    }
+    },
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true
 }
