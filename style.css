@@ -70,7 +70,7 @@ main {
 }
 
 .project-card img {
-  width: 100%;
+  width: 50%;
   height: 170px;
   object-fit: cover;
   border-bottom: 2px solid #1B102B;
