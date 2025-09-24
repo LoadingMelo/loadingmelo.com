@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: #f4f6f8;
+  background: #000000;
   margin: 0;
   padding: 0;
 }
@@ -60,7 +60,7 @@ main {
   height: 140px;
   object-fit: cover;
   border-bottom: 1px solid #eee;
-  background: #e0e0e0;
+  background: #1B102B;
 }
 .project-card h3 {
   margin: 1em 0 0.5em 0;
@@ -73,7 +73,7 @@ main {
   transition: color 0.2s;
 }
 .project-card a:hover {
-  color: #0d47a1;
+  color: #840E87;
   text-decoration: underline;
 }
 @media (max-width: 600px) {
