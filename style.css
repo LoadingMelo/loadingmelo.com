@@ -11,24 +11,32 @@ header {
 .logo {
   max-width: 160px;
 }
+a.navigation {
+    margin: 0 5px;
+    padding: 3px 8px;
+    text-decoration:none ;
+    border:solid 3px;
+    border-radius:10px;
+    color:#ffffff;
+  }
+  #blog-link {
+    background:linear-gradient(135deg,rgb(128,208,199) 0%,rgb(65,82,208) 100%)
+  }
+  #contact-link {
+    background:linear-gradient(135deg,rgb(65,88,208) 0%,rgb(200,80,192) 100%)
+  }
+  #projects-link {
+    background:linear-gradient(135deg,rgb(174,61,255) 0%,rgb(226,39,86) 100%)
+  }
+  #credentials-link {
+    background:linear-gradient(135deg,rgb(226,39,86) 0%,rgb(226, 198, 39) 100%)
+  }
 nav {
   display: flex;
   justify-content: center;
   gap: 2em;
   margin-bottom: 2em;
-}
-.navigation {
-  text-decoration: none;
-  color: #222;
-  font-weight: 500;
-  font-size: 1.1em;
-  padding: 0.4em 1em;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-.navigation:hover, .navigation:focus {
-  background: #d0e6ff;
-}
+
 main {
   max-width: 1100px;
   margin: auto;
